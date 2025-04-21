@@ -1,0 +1,21 @@
+{
+  "name": "discord-pixelmon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.13.2",
+    "path": "^0.12.7",
+    "uuid":"^11.1.0"
+  }
+}
