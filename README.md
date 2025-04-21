@@ -84,12 +84,12 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/pixelmon.git
+   git clone https://github.com/mr3xploiter/The-Ultimate-Discord-RPG-Bot.git
    ```
 
 2. **Navigate to the project directory:**
    ```bash
-   cd pixelmon
+   cd The-Ultimate-Discord-RPG-Bot
    ```
 
 3. **Rename the `.env.example` file to `.env` and configure your environment variables.**
