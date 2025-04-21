@@ -1,3 +1,20 @@
+
+# Pixelmon - The Ultimate Discord RPG Bot
+
+**Pixelmon** is a fully-featured Discord RPG bot that brings an immersive experience right to your server. With features like animal battles, farming, economy, quests, and more, Pixelmon is designed to keep your members engaged and entertained for hours. Collect, breed, and battle with animals, trade with friends, climb the leaderboards, and explore new areas as you grow your virtual farm and complete exciting tasks.
+
+## Features
+
+- **Animal Battles**: Engage in epic battles between your animals and others.
+- **Farming**: Own and manage your farm, breed animals, and collect resources.
+- **Economy System**: Earn coins through activities like hunting, mining, and working.
+- **Quests**: Complete exciting quests for rewards and progress.
+- **Leaderboards**: Compete for the top spots in various categories like animal battles, farming, and more.
+- **Shop & Gifts**: Buy items and send coins as gifts to other users.
+
+## Source Tree Structure
+
+```
 📦pixelmon
  ┣ 📂commands
  ┃ ┣ 📂achievements
@@ -56,8 +73,35 @@
  ┃ ┣ 📜levelUtils.js
  ┃ ┣ 📜potionUtils.js
  ┃ ┗ 📜questUtils.js
- ┣ 📜.env
+ ┣ 📜.env.example
  ┣ 📜discord-pixelmon.zip
  ┣ 📜index.js
  ┣ 📜package-lock.json
  ┗ 📜package.json
+```
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/pixelmon.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd pixelmon
+   ```
+
+3. **Rename the `.env.example` file to `.env` and configure your environment variables.**
+
+4. **Install the required dependencies:**
+   ```bash
+   npm install
+   ```
+
+5. **Start the bot:**
+   ```bash
+   node index.js
+   ```
+
+Now your **Pixelmon** bot should be up and running!
