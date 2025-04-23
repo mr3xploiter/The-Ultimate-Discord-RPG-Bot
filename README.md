@@ -271,58 +271,57 @@ All commands can also be used with the `pixel` prefix:
 | Unicorn | 🦄 | Mythical | Special
 | Phoenix | 🔥 | Mythical | Special
 
-
 ## 🧬 Animal Traits
 
-| Trait | Effect
-|-----|-----|-----|-----
-| Brave | Increases strength in battles by 10%
-| Lazy | Recovers health faster when resting
-| Curious | Finds more items during exploration
-| Smart | Gains 20% more XP
-| Loyal | Increases coin rewards by 15%
-| Aggressive | Deals 15% more damage but takes 10% more damage
-| Timid | Takes 15% less damage but deals 10% less damage
-| Friendly | Has a 10% chance to avoid battles entirely
+| Trait      | Effect                                                              |
+|------------|---------------------------------------------------------------------|
+| Brave      | Increases strength in battles by 10%                                |
+| Lazy       | Recovers health faster when resting                                 |
+| Curious    | Finds more items during exploration                                 |
+| Smart      | Gains 20% more XP                                                   |
+| Loyal      | Increases coin rewards by 15%                                       |
+| Aggressive | Deals 15% more damage but takes 10% more damage                     |
+| Timid      | Takes 15% less damage but deals 10% less damage                     |
+| Friendly   | Has a 10% chance to avoid battles entirely                          |
 
+---
 
 ## 🏗️ Farm Structures
 
-| Structure | Effect | Max Level
-|-----|-----|-----|-----
-| Animal House | Increases animal capacity by 2 per level | 5
-| Feeding Station | Increases healing effectiveness by 20% per level | 3
-| Training Ground | Increases XP gain by 10% per level | 3
+| Structure       | Effect                                         | Max Level |
+|-----------------|------------------------------------------------|-----------|
+| Animal House    | Increases animal capacity by 2 per level      | 5         |
+| Feeding Station | Increases healing effectiveness by 20%/level  | 3         |
+| Training Ground | Increases XP gain by 10% per level            | 3         |
 
+---
 
 ## 💎 Resources
 
-| Resource | Emoji | Rarity
-|-----|-----|-----|-----
-| Stone | 🪨 | Common
-| Iron | ⚙️ | Common
-| Gold | 🥇 | Uncommon
-| Diamond | 💎 | Rare
-| Emerald | 💚 | Very Rare
-| Obsidian | 🟣 | Very Rare
-| Crystal | ✨ | Extremely Rare
+| Resource | Emoji | Rarity         |
+|----------|--------|----------------|
+| Stone    | 🪨     | Common         |
+| Iron     | ⚙️     | Common         |
+| Gold     | 🥇     | Uncommon       |
+| Diamond  | 💎     | Rare           |
+| Emerald  | 💚     | Very Rare      |
+| Obsidian | 🟣     | Very Rare      |
+| Crystal  | ✨     | Extremely Rare |
 
+---
 
 ## 🧪 Potions
 
-| Potion | Effect | Duration
-|-----|-----|-----|-----
-| Small XP Boost | Increases XP gain by 25% | 1 hour
-| Medium XP Boost | Increases XP gain by 50% | 1 hour
-| Large XP Boost | Doubles XP gain | 1 hour
-| Small Coin Boost | Increases coin gain by 25% | 1 hour
-| Medium Coin Boost | Increases coin gain by 50% | 1 hour
-| Large Coin Boost | Doubles coin gain | 1 hour
-| Battle Shield | Prevents loss of coins when losing battles | 2 hours
-| Lucky Charm | Increases chance of rare finds when mining | 30 minutes
-
-
-
+| Potion            | Effect                                      | Duration   |
+|-------------------|---------------------------------------------|------------|
+| Small XP Boost    | Increases XP gain by 25%                    | 1 hour     |
+| Medium XP Boost   | Increases XP gain by 50%                    | 1 hour     |
+| Large XP Boost    | Doubles XP gain                             | 1 hour     |
+| Small Coin Boost  | Increases coin gain by 25%                  | 1 hour     |
+| Medium Coin Boost | Increases coin gain by 50%                  | 1 hour     |
+| Large Coin Boost  | Doubles coin gain                           | 1 hour     |
+| Battle Shield     | Prevents loss of coins when losing battles  | 2 hours    |
+| Lucky Charm       | Increases chance of rare finds when mining  | 30 minutes |
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
