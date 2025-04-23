@@ -400,7 +400,8 @@ Please make sure to add the following environment variables to your project:
  ┣ 📜index.js
  ┣ 📜package-lock.json
  ┣ 📜package.json
- ┗ 📜pixelmon.zip```
+ ┗ 📜pixelmon.zip
+```
 
 ## Installation
 
