@@ -1,5 +1,5 @@
+<p align="center"> <img src="assets/logo.png" alt="Pixelmon Logo" width="200" height="200" style="border-radius: 50%;"> </p> <h1 align="center">🌟 Pixelmon - The Ultimate Discord RPG Bot 🌟</h1> <p align="center"> <i>Immerse your community in the world of RPG with animals, battles, farming, quests, and more!</i> </p>
 
-# Pixelmon - The Ultimate Discord RPG Bot
 
 **Pixelmon** is a fully-featured Discord RPG bot that brings an immersive experience right to your server. With features like animal battles, farming, economy, quests, and more, Pixelmon is designed to keep your members engaged and entertained for hours. Collect, breed, and battle with animals, trade with friends, climb the leaderboards, and explore new areas as you grow your virtual farm and complete exciting tasks.
 ## 🌟 Preview
@@ -421,10 +421,13 @@ Please make sure to add the following environment variables to your project:
    ```bash
    npm install
    ```
-
+5. **Discord Bot Token**
+Go to your discord developer portal or <a href="https://discord.com/developers/applications">Click the link</a>  to go to your developer dashboard
+<img src="screenshot/1.png" width="600"/>
 5. **Start the bot:**
    ```bash
    node index.js
    ```
 
+6
 Now your **Pixelmon** bot should be up and running!
