@@ -359,7 +359,8 @@ Please make sure to add the following environment variables to your project:
  ┃ ┃ ┣ 📜guess.js
  ┃ ┃ ┗ 📜hunt.js
  ┃ ┣ 📂leaderboard
- ┃ ┃ ┗ 📜leaderboard.js
+ ┃ ┃ ┣ 📜leaderboard.js
+ ┃ ┃ ┗ 📜liketop.js
  ┃ ┣ 📂mining
  ┃ ┃ ┗ 📜mine.js
  ┃ ┣ 📂potions
@@ -367,6 +368,9 @@ Please make sure to add the following environment variables to your project:
  ┃ ┃ ┗ 📜effects.js
  ┃ ┣ 📂quests
  ┃ ┃ ┗ 📜quests.js
+ ┃ ┣ 📂rank
+ ┃ ┃ ┣ 📜rank.js
+ ┃ ┃ ┗ 📜ranktop.js
  ┃ ┣ 📂shop
  ┃ ┃ ┣ 📜buy.js
  ┃ ┃ ┗ 📜shop.js
@@ -378,6 +382,7 @@ Please make sure to add the following environment variables to your project:
  ┃ ┃ ┗ 📜resources.js
  ┣ 📂events
  ┃ ┣ 📜interactionCreate.js
+ ┃ ┣ 📜messageCreate.js
  ┃ ┗ 📜ready.js
  ┣ 📂models
  ┃ ┣ 📜clanModel.js
@@ -388,13 +393,14 @@ Please make sure to add the following environment variables to your project:
  ┃ ┣ 📜cooldown.js
  ┃ ┣ 📜levelUtils.js
  ┃ ┣ 📜potionUtils.js
- ┃ ┗ 📜questUtils.js
- ┣ 📜.env.example
- ┣ 📜discord-pixelmon.zip
+ ┃ ┣ 📜questUtils.js
+ ┃ ┗ 📜rankUtils.js
+ ┣ 📜.env
+ ┣ 📜README.md
  ┣ 📜index.js
  ┣ 📜package-lock.json
- ┗ 📜package.json
-```
+ ┣ 📜package.json
+ ┗ 📜pixelmon.zip```
 
 ## Installation
 
