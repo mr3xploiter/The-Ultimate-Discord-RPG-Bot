@@ -1,3 +1,6 @@
+
+<img src="assets/a-discord-bot-banner-showcasing-a-sleek-_r1ojQuKfTQC9v59p5E171A_33-tWS_PQ6WYxS4uoK-qbQ.jpeg"  alt="Pixelmon Logo">
+
 <p align="center"> <img src="assets/logo.png" alt="Pixelmon Logo" width="200" height="200" style="border-radius: 50%;"> </p> <h1 align="center">🌟 Pixelmon - The Ultimate Discord RPG Bot 🌟</h1> <p align="center"> <i>Immerse your community in the world of RPG with animals, battles, farming, quests, and more!</i> </p>
 
 
