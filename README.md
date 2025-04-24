@@ -421,13 +421,96 @@ Please make sure to add the following environment variables to your project:
    ```bash
    npm install
    ```
-5. **Discord Bot Token**
-Go to your discord developer portal or <a href="https://discord.com/developers/applications">Click the link</a>  to go to your developer dashboard
-<img src="screenshot/1.png" width="600"/>
+
+<h2>Discord Bot Token</h2>
+1. Go to your discord developer portal or <a href="https://discord.com/developers/applications">Click the link</a>  to go to your developer dashboard . Now click New Application button to create ana application.
+
+<img src="assets/installation/1.png" />
+
+2. Now give a name of your bot , and click the check box , then you need to click 'create' button .
+<img src="assets/installation/2.png" />
+
+3. If all good , then you need to copy the application ID.
+<img src="assets/installation/3.png" />
+
+
+4. Then go to any code editor like VS Code . then go to your '.env' and paste it like as shown as in the screenshot
+<img src="assets/installation/4.png" />
+
+
+5. Then go to your bot tab
+<img src="assets/installation/5.png" />
+
+6. Click 'reset token' to generate a bot token
+<img src="assets/installation/6.png" />
+
+7. Then click 'yes do it'
+<img src="assets/installation/7.png" />
+
+8. Then you need to provide your discord password and then click 'submit' button
+<img src="assets/installation/8.png" />
+
+9. Boom! Your token has been successfully generated . you need to copy this token , hint: do not share this token to anyone
+<img src="assets/installation/9.png" />
+
+10. Then go to your code editor and navigate to '.env' file and paste the token like this .
+<img src="assets/installation/10.png" />
+
+11. Then go to your developer portal and navigate to 'OAuth2' tab , and scroll down , then enable 'bot'
+<img src="assets/installation/11.png" />
+
+12. Then scroll down , then enable all propertise as shown as screenshot
+<img src="assets/installation/12.png" />
+
+13. Then scroll down , then copy the generated url.
+<img src="assets/installation/13.png" />
+
+13. Then open this link n new tab . you should see like this , select your server where your bot will be join. then click 'Continue' button
+<img src="assets/installation/14.png" />
+
+13. Then it should looks like this , then click 'Authorize' button.
+<img src="assets/installation/15.png" />
+
+13. Booom ! You have been successfully added this bot into your server
+<img src="assets/installation/16.png" />
+
+13. Now go to your discord server where you have successfully added your bot . you should see like this 
+<img src="assets/installation/17.png" />
+
+13. Then you need to go you discord developer dashboard again , navigate to 'Bot' and scrool down , you need to enable all intents like this , and save this 
+<img src="assets/installation/18.png" />
+
+<h2>MongoDB Setup</h2>
+
+1. Go to <a src="https://www.mongodb.com/cloud/atlas/register">MongoDB Register Page</a> and create an account . once you have successfull done , you should see like this , select 'Free' plan for this project.
+<img src="assets/installation/19.png" />
+
+2. Give a name of your claster i have by default 'claster0' you can give any name you want. you need to select any provider , by default 'AWS' is selected. then click 'Create Deployment' button .
+<img src="assets/installation/20.png" />
+
+3. Then connect to cluster dialogue will comes , you have username and pasword , then click 'Create Database User' ,
+<img src="assets/installation/21.png" />
+
+4. Then scroll down , you will get connection string like this , copy the string , and then click 'Done'
+<img src="assets/installation/22.png" />
+
+5. Then go to your code editor , and paste your mongodb token here 
+<img src="assets/installation/26.png" />
+
+6. Then go to your mongodb dashboard again .then navigate to 'Network Access' and click '+ Add IP Address' button 
+<img src="assets/installation/23.png" />
+
+7. You should looks like when you click '+ Add IP Address' button . then click 'ALLOW ACCESS FROM EVERYWHERE' button . then click 'conferm' button
+<img src="assets/installation/24.png" />
+
+<h1>You have been successfully configured mongdb for this project</h1>
+
+Now start this bot
+
 5. **Start the bot:**
    ```bash
    node index.js
    ```
 
-6
-Now your **Pixelmon** bot should be up and running!
+6. Now your **Pixelmon** bot should be up and running!
+
