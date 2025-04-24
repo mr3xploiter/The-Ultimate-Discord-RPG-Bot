@@ -482,7 +482,7 @@ Please make sure to add the following environment variables to your project:
 
 <h2>MongoDB Setup</h2>
 
-1. Go to <a src="https://www.mongodb.com/cloud/atlas/register">MongoDB Register Page</a> and create an account . once you have successfull done , you should see like this , select 'Free' plan for this project.
+1. Go to <a href="https://www.mongodb.com/cloud/atlas/register">MongoDB Register Page</a> and create an account . once you have successfull done , you should see like this , select 'Free' plan for this project.
 <img src="assets/installation/19.png" />
 
 2. Give a name of your claster i have by default 'claster0' you can give any name you want. you need to select any provider , by default 'AWS' is selected. then click 'Create Deployment' button .
