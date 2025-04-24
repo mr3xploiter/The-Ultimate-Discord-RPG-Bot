@@ -8,7 +8,8 @@
 ## 🌟 Preview
 <p align="center">
   <a href="https://discord.gg/ardvvgM4xF">
-  <img src="https://clear-sparrow-896.convex.cloud/api/storage/61ff55f0-6069-472b-98aa-18be09ebd50a" alt="Image description" width="750" height="160">
+<img src="https://clear-sparrow-896.convex.cloud/api/storage/61ff55f0-6069-472b-98aa-18be09ebd50a" alt="Image description" width="500" height="150">
+
 </a>
 
 </p>
