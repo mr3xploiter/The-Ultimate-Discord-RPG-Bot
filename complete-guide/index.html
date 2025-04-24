@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelMon Bot - Complete Guide & Commands</title>
+    <link rel="stylesheet" href="guide-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/placeholder.svg?height=50&width=50" alt="PixelMon Logo">
+                <h1>PixelMon</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#getting-started">Getting Started</a>
+                <a href="#commands">Commands</a>
+                <a href="#gameplay">Gameplay</a>
+                <a href="#join" class="nav-cta">Add to Discord</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <header class="guide-header">
+            <div class="header-content">
+                <h1>Complete <span class="accent">Guide</span></h1>
+                <p>Everything you need to know about PixelMon Bot commands and gameplay</p>
+            </div>
+        </header>
+
+        <div class="table-of-contents">
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#getting-started">Getting Started</a></li>
+                <li><a href="#commands">Command List</a></li>
+                <li>
+                    <a href="#economy-commands">Economy Commands</a>
+                    <ul>
+                        <li><a href="#daily">Daily</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#balance">Balance</a></li>
+                        <li><a href="#gift">Gift</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#battle-commands">Battle Commands</a>
+                    <ul>
+                        <li><a href="#battle">Battle</a></li>
+                        <li><a href="#animalbattle">Animal Battle</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#game-commands">Game Commands</a>
+                    <ul>
+                        <li><a href="#hunt">Hunt</a></li>
+                        <li><a href="#mine">Mine</a></li>
+                        <li><a href="#guess">Guess</a></li>
+                        <li><a href="#gamble">Gamble</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#animal-commands">Animal Commands</a>
+                    <ul>
+                        <li><a href="#animals">Animals</a></li>
+                        <li><a href="#addanimal">Add Animal</a></li>
+                        <li><a href="#heal">Heal</a></li>
+                        <li><a href="#breed">Breed</a></li>
+                        <li><a href="#send">Send</a></li>
+                        <li><a href="#collect">Collect</a></li>
+                        <li><a href="#animaltop">Animal Top</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#farm-commands">Farm Commands</a>
+                    <ul>
+                        <li><a href="#farm">Farm</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#shop-commands">Shop Commands</a>
+                    <ul>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#buy">Buy</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#user-commands">User Commands</a>
+                    <ul>
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#profileset">Profile Set</a></li>
+                        <li><a href="#inventory">Inventory</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#quests">Quests</a></li>
+                        <li><a href="#effects">Effects</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#rank-commands">Rank Commands</a>
+                    <ul>
+                        <li><a href="#rank">Rank</a></li>
+                        <li><a href="#ranks">Ranks</a></li>
+                        <li><a href="#ranktop">Rank Top</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#clan-commands">Clan Commands</a>
+                    <ul>
+                        <li><a href="#clan">Clan</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#leaderboard-commands">Leaderboard Commands</a>
+                    <ul>
+                        <li><a href="#leaderboard">Leaderboard</a></li>
+                        <li><a href="#liketop">Like Top</a></li>
+                    </ul>
+                </li>
+                <li><a href="#potion-commands">Potion Commands</a></li>
+                <li><a href="#gameplay">Gameplay Guide</a></li>
+                <li><a href="#tips">Tips & Strategies</a></li>
+            </ul>
+        </div>
+
+        <section id="getting-started" class="guide-section">
+            <h2>Getting Started</h2>
+            <div class="guide-content">
+                <p>Welcome to PixelMon, a comprehensive Discord bot that brings a Pokémon-inspired RPG experience to your server! This guide will help you understand how to use the bot and make the most of its features.</p>
+                
+                <h3>Adding the Bot to Your Server</h3>
+                <p>To add PixelMon to your Discord server, click the "Add to Discord" button at the top of this page or on the homepage. You'll need to have the "Manage Server" permission in your Discord server to add the bot.</p>
+                
+                <h3>Command Prefix</h3>
+                <p>PixelMon supports two ways to use commands:</p>
+                <ul>
+                    <li><strong>Slash Commands:</strong> Type / followed by the command name (e.g., <code>/daily</code>)</li>
+                    <li><strong>Prefix Commands:</strong> Type "pixel" followed by the command name (e.g., <code>pixel daily</code>)</li>
+                </ul>
+                
+                <h3>Getting Help</h3>
+                <p>If you need help with the bot, you can use the <code>/help</code> command to see a list of all available commands. You can also specify a category to see more detailed information about specific commands.</p>
+                <div class="command-example">
+                    <code>/help</code> - Shows all command categories<br>
+                    <code>/help economy</code> - Shows all economy commands
+                </div>
+                
+                <h3>Basic Gameplay Loop</h3>
+                <p>Here's a quick overview of what you can do with PixelMon:</p>
+                <ol>
+                    <li>Earn coins through daily rewards, work, and other activities</li>
+                    <li>Hunt for items and animals</li>
+                    <li>Mine for resources</li>
+                    <li>Build and upgrade your farm</li>
+                    <li>Collect and train animals</li>
+                    <li>Battle other players and their animals</li>
+                    <li>Complete quests and earn achievements</li>
+                    <li>Rise through the ranks and compete on leaderboards</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="commands" class="guide-section">
+            <h2>Command List</h2>
+            <div class="guide-content">
+                <p>PixelMon offers over 50 commands across various categories. Below is a comprehensive list of all commands, organized by category, with detailed explanations of what each command does and how to use it.</p>
+                
+                <div class="note-box">
+                    <h4>Note:</h4>
+                    <p>All commands can be used with either the slash command format (<code>/command</code>) or the prefix format (<code>pixel command</code>). This guide will use the slash command format for simplicity.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="economy-commands" class="guide-section">
+            <h2>Economy Commands</h2>
+            <div class="guide-content">
+                <p>Economy commands help you earn and manage your coins, which are the primary currency in PixelMon.</p>
+                
+                <div id="daily" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-calendar-day"></i> Daily</h3>
+                        <div class="command-syntax">/daily</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Claim your daily coins and XP reward.</p>
+                        <p><strong>Cooldown:</strong> 24 hours</p>
+                        <p><strong>Rewards:</strong> 100-199 coins and 10-29 XP</p>
+                        <p><strong>Usage:</strong> Simply use the command to claim your daily reward. Make sure to claim it every day to maximize your earnings!</p>
+                        <div class="command-example">
+                            <code>/daily</code>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="work" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-briefcase"></i> Work</h3>
+                        <div class="command-syntax">/work</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Work to earn coins and XP.</p>
+                        <p><strong>Cooldown:</strong> 1 hour</p>
+                        <p><strong>Rewards:</strong> 15-80 coins (depending on the job) and XP (approximately 1/3 of coins earned)</p>
+                        <p><strong>Usage:</strong> Use this command to work and earn coins. You'll be assigned a random job each time, with different coin rewards.</p>
+                        <div class="command-example">
+                            <code>/work</code>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="balance" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-coins"></i> Balance</h3>
+                        <div class="command-syntax">/balance</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Check your balance, level, and battle record.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to view your current coin balance, level, XP progress, and battle record.</p>
+                        <div class="command-example">
+                            <code>/balance</code>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="gift" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-gift"></i> Gift</h3>
+                        <div class="command-syntax">/gift [user] [amount]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Gift coins to another user.</p>
+                        <p><strong>Cooldown:</strong> 30 minutes</p>
+                        <p><strong>Usage:</strong> Use this command to gift coins to another user. You need to specify the user and the amount of coins you want to gift.</p>
+                        <div class="command-example">
+                            <code>/gift @username 100</code>
+                        </div>
+                        <p><strong>Note:</strong> You cannot gift coins to yourself or to bots, and you must have enough coins to gift.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="battle-commands" class="guide-section">
+            <h2>Battle Commands</h2>
+            <div class="guide-content">
+                <p>Battle commands allow you to challenge other users to battles, either directly or with your animals.</p>
+                
+                <div id="battle" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-swords"></i> Battle</h3>
+                        <div class="command-syntax">/battle [opponent]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Battle another user.</p>
+                        <p><strong>Cooldown:</strong> 10 minutes</p>
+                        <p><strong>Rewards:</strong> 20-49 coins and 10-24 XP for the winner, 1/3 of the XP for the loser</p>
+                        <p><strong>Usage:</strong> Use this command to challenge another user to a battle. The outcome is determined by your levels, XP, and a bit of randomness.</p>
+                        <div class="command-example">
+                            <code>/battle @username</code>
+                        </div>
+                        <p><strong>Note:</strong> You cannot battle yourself or bots.</p>
+                    </div>
+                </div>
+                
+                <div id="animalbattle" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-paw"></i> Animal Battle</h3>
+                        <div class="command-syntax">/animalbattle [opponent]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Battle your animal against another user's animal.</p>
+                        <p><strong>Cooldown:</strong> 10 minutes</p>
+                        <p><strong>Rewards:</strong> XP for the winning animal, with a small amount for the losing animal</p>
+                        <p><strong>Usage:</strong> Use this command to have your selected animal battle against another user's selected animal. The outcome is determined by the animals' stats, traits, and a bit of randomness.</p>
+                        <div class="command-example">
+                            <code>/animalbattle @username</code>
+                        </div>
+                        <p><strong>Note:</strong> Both you and your opponent must have a selected animal with at least 20% health.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="game-commands" class="guide-section">
+            <h2>Game Commands</h2>
+            <div class="guide-content">
+                <p>Game commands offer various mini-games and activities to earn coins, XP, items, and animals.</p>
+                
+                <div id="hunt" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-search"></i> Hunt</h3>
+                        <div class="command-syntax">/hunt</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Hunt for items and animals.</p>
+                        <p><strong>Cooldown:</strong> 30 minutes</p>
+                        <p><strong>Rewards:</strong> Various items and a chance to find animals, plus 5-14 XP (1-3 XP if unsuccessful)</p>
+                        <p><strong>Usage:</strong> Use this command to hunt for items and animals. You have a chance to find various items like potions, balls, and rare animals.</p>
+                        <div class="command-example">
+                            <code>/hunt</code>
+                        </div>
+                        <p><strong>Note:</strong> Animals found through hunting need to be added to your farm using the <code>/addanimal</code> command.</p>
+                    </div>
+                </div>
+                
+                <div id="mine" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-gem"></i> Mine</h3>
+                        <div class="command-syntax">/mine</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Mine for resources and animals.</p>
+                        <p><strong>Cooldown:</strong> 10 minutes</p>
+                        <p><strong>Rewards:</strong> Various resources (stone, iron, gold, diamond, etc.), a chance to find animals, plus 5-14 XP</p>
+                        <p><strong>Usage:</strong> Use this command to mine for resources that can be used to build and upgrade structures on your farm. You also have a chance to find animals.</p>
+                        <div class="command-example">
+                            <code>/mine</code>
+                        </div>
+                        <p><strong>Note:</strong> There's a small chance to hit a jackpot and find a large amount of rare resources.</p>
+                    </div>
+                </div>
+                
+                <div id="guess" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-dice"></i> Guess</h3>
+                        <div class="command-syntax">/guess [number]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Guess a number between 1 and 10.</p>
+                        <p><strong>Cooldown:</strong> 5 minutes</p>
+                        <p><strong>Rewards:</strong> 10-29 coins and 3-10 XP if correct, 1 XP if incorrect</p>
+                        <p><strong>Usage:</strong> Use this command to guess a number between 1 and 10. If you guess correctly, you'll earn coins and XP.</p>
+                        <div class="command-example">
+                            <code>/guess 7</code>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="gamble" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-dice-d20"></i> Gamble</h3>
+                        <div class="command-syntax">/gamble [amount]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Gamble your coins for a chance to win more.</p>
+                        <p><strong>Cooldown:</strong> 10 minutes</p>
+                        <p><strong>Rewards:</strong> 1.5-2.0x your bet if you win, plus XP (5% of bet); small consolation XP if you lose</p>
+                        <p><strong>Usage:</strong> Use this command to gamble a specific amount of coins. You have a 45% chance to win and a 55% chance to lose.</p>
+                        <div class="command-example">
+                            <code>/gamble 100</code>
+                        </div>
+                        <p><strong>Note:</strong> Gambling is risky! Only gamble what you can afford to lose.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="animal-commands" class="guide-section">
+            <h2>Animal Commands</h2>
+            <div class="guide-content">
+                <p>Animal commands allow you to manage your animals, including viewing, adding, healing, breeding, and sending them on tasks.</p>
+                
+                <div id="animals" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-paw"></i> Animals</h3>
+                        <div class="command-syntax">/animals [subcommand]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View and manage your animals.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Subcommands:</strong></p>
+                        <ul>
+                            <li><code>list</code> - List all your animals</li>
+                            <li><code>info [name]</code> - View detailed information about an animal</li>
+                            <li><code>select [name]</code> - Select an animal as your active animal</li>
+                            <li><code>rename [current] [new]</code> - Rename one of your animals</li>
+                        </ul>
+                        <div class="command-example">
+                            <code>/animals list</code><br>
+                            <code>/animals info FluffyTail</code><br>
+                            <code>/animals select FluffyTail</code><br>
+                            <code>/animals rename FluffyTail MightyTail</code>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="addanimal" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-plus"></i> Add Animal</h3>
+                        <div class="command-syntax">/addanimal [type] [name]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Add an animal to your farm.</p>
+                        <p><strong>Cooldown:</strong> 5 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to add an animal from your inventory to your farm. You need to specify the type of animal and a name for it.</p>
+                        <div class="command-example">
+                            <code>/addanimal Rabbit FluffyTail</code>
+                        </div>
+                        <p><strong>Note:</strong> You must have the animal in your inventory (from hunting or mining) and have enough space on your farm.</p>
+                    </div>
+                </div>
+                
+                <div id="heal" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-heart"></i> Heal</h3>
+                        <div class="command-syntax">/heal [animal] [item]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Heal one of your animals.</p>
+                        <p><strong>Cooldown:</strong> 5 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to heal an animal using a potion. You need to specify the animal's name and the potion to use.</p>
+                        <div class="command-example">
+                            <code>/heal FluffyTail Potion</code>
+                        </div>
+                        <p><strong>Note:</strong> Different potions heal different amounts of health: Potion (30 HP), Super Potion (70 HP), Max Potion (full health).</p>
+                    </div>
+                </div>
+                
+                <div id="breed" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-heart"></i> Breed</h3>
+                        <div class="command-syntax">/breed [parent1] [parent2] [name]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Breed two of your animals to create a new one.</p>
+                        <p><strong>Cooldown:</strong> 1 hour</p>
+                        <p><strong>Usage:</strong> Use this command to breed two of your animals and create a new offspring. You need to specify the names of both parent animals and a name for the offspring.</p>
+                        <div class="command-example">
+                            <code>/breed FluffyTail MightyPaw BabyHop</code>
+                        </div>
+                        <p><strong>Note:</strong> Both parent animals must be at least level 3 and have at least 50% health. Breeding reduces the parents' health by 20%.</p>
+                    </div>
+                </div>
+                
+                <div id="send" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-paper-plane"></i> Send</h3>
+                        <div class="command-syntax">/send [animal] [task]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Send an animal on a task.</p>
+                        <p><strong>Cooldown:</strong> 5 seconds</p>
+                        <p><strong>Tasks:</strong> hunt (10 minutes), mine (15 minutes), explore (20 minutes)</p>
+                        <p><strong>Usage:</strong> Use this command to send an animal on a task to earn rewards. You need to specify the animal's name and the task.</p>
+                        <div class="command-example">
+                            <code>/send FluffyTail hunt</code>
+                        </div>
+                        <p><strong>Note:</strong> The animal must have at least 30% health to go on a task. Different tasks have different durations and rewards.</p>
+                    </div>
+                </div>
+                
+                <div id="collect" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-box-open"></i> Collect</h3>
+                        <div class="command-syntax">/collect [animal]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Collect rewards from an animal's completed task.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to collect rewards from an animal that has completed its task. You need to specify the animal's name.</p>
+                        <div class="command-example">
+                            <code>/collect FluffyTail</code>
+                        </div>
+                        <p><strong>Note:</strong> The animal must have completed its task before you can collect rewards.</p>
+                    </div>
+                </div>
+                
+                <div id="animaltop" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-trophy"></i> Animal Top</h3>
+                        <div class="command-syntax">/animaltop [sort]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View the top animals globally.</p>
+                        <p><strong>Cooldown:</strong> 10 seconds</p>
+                        <p><strong>Sort Options:</strong> strength, level, wins, power</p>
+                        <p><strong>Usage:</strong> Use this command to view the top animals across all users, sorted by your chosen criteria.</p>
+                        <div class="command-example">
+                            <code>/animaltop strength</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="farm-commands" class="guide-section">
+            <h2>Farm Commands</h2>
+            <div class="guide-content">
+                <p>Farm commands allow you to manage your farm, including viewing, upgrading, and building structures.</p>
+                
+                <div id="farm" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-home"></i> Farm</h3>
+                        <div class="command-syntax">/farm [subcommand]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View and manage your farm.</p>
+                        <p><strong>Cooldown:</strong> 5 seconds</p>
+                        <p><strong>Subcommands:</strong></p>
+                        <ul>
+                            <li><code>view</code> - View your farm</li>
+                            <li><code>upgrade</code> - Upgrade your farm to the next level</li>
+                            <li><code>build [structure]</code> - Build or upgrade a structure on your farm</li>
+                        </ul>
+                        <p><strong>Structures:</strong> animalHouse, feedingStation, trainingGround</p>
+                        <div class="command-example">
+                            <code>/farm view</code><br>
+                            <code>/farm upgrade</code><br>
+                            <code>/farm build animalHouse</code>
+                        </div>
+                        <p><strong>Note:</strong> Upgrading your farm increases your animal capacity and unlocks new structures. Building structures provides various benefits to your animals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="shop-commands" class="guide-section">
+            <h2>Shop Commands</h2>
+            <div class="guide-content">
+                <p>Shop commands allow you to view and purchase items from the shop.</p>
+                
+                <div id="shop" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-store"></i> Shop</h3>
+                        <div class="command-syntax">/shop</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View the shop.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to view the available items in the shop, along with their prices and descriptions.</p>
+                        <div class="command-example">
+                            <code>/shop</code>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="buy" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-shopping-cart"></i> Buy</h3>
+                        <div class="command-syntax">/buy [item] [quantity]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Buy an item from the shop.</p>
+                        <p><strong>Cool  Buy an item from the shop.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to buy an item from the shop. You need to specify the item number (from the shop list) and optionally the quantity (default is 1).</p>
+                        <div class="command-example">
+                            <code>/buy 1 3</code> (buys 3 of item #1)
+                        </div>
+                        <p><strong>Note:</strong> You must have enough coins to make the purchase.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="user-commands" class="guide-section">
+            <h2>User Commands</h2>
+            <div class="guide-content">
+                <p>User commands allow you to manage your profile, inventory, resources, achievements, and quests.</p>
+                
+                <div id="profile" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-user"></i> Profile</h3>
+                        <div class="command-syntax">/profile [user]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View your profile or another user's profile.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to view detailed information about your profile or another user's profile, including rank, stats, animals, and more.</p>
+                        <div class="command-example">
+                            <code>/profile</code> (view your own profile)<br>
+                            <code>/profile @username</code> (view another user's profile)
+                        </div>
+                        <p><strong>Note:</strong> You can like or dislike other users' profiles using the buttons on the profile message.</p>
+                    </div>
+                </div>
+                
+                <div id="profileset" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-user-edit"></i> Profile Set</h3>
+                        <div class="command-syntax">/profileset [subcommand]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Customize your profile.</p>
+                        <p><strong>Cooldown:</strong> 5 seconds</p>
+                        <p><strong>Subcommands:</strong></p>
+                        <ul>
+                            <li><code>bio [text]</code> - Set your profile bio (max 200 characters)</li>
+                            <li><code>favoriteitem [item]</code> - Set your favorite item</li>
+                            <li><code>background [theme]</code> - Set your profile background theme</li>
+                            <li><code>title [text]</code> - Set your profile title (max 30 characters)</li>
+                        </ul>
+                        <div class="command-example">
+                            <code>/profileset bio I love collecting animals!</code><br>
+                            <code>/profileset favoriteitem Ultra Ball</code><br>
+                            <code>/profileset background fire</code><br>
+                            <code>/profileset title Master Trainer</code>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="inventory" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-backpack"></i> Inventory</h3>
+                        <div class="command-syntax">/inventory</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View your inventory.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to view the items in your inventory.</p>
+                        <div class="command-example">
+                            <code>/inventory</code>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="resources" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-gem"></i> Resources</h3>
+                        <div class="command-syntax">/resources</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View your resources.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to view the resources you've collected from mining.</p>
+                        <div class="command-example">
+                            <code>/resources</code>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="achievements" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-trophy"></i> Achievements</h3>
+                        <div class="command-syntax">/achievements</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View your achievements.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to view your completed and incomplete achievements.</p>
+                        <div class="command-example">
+                            <code>/achievements</code>
+                        </div>
+                        <p><strong>Note:</strong> Completing achievements rewards you with coins and XP.</p>
+                    </div>
+                </div>
+                
+                <div id="quests" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-tasks"></i> Quests</h3>
+                        <div class="command-syntax">/quests [subcommand]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View and manage your quests.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Subcommands:</strong></p>
+                        <ul>
+                            <li><code>view</code> - View your active quests</li>
+                            <li><code>claim [type]</code> - Claim rewards for completed quests (daily, weekly, or all)</li>
+                        </ul>
+                        <div class="command-example">
+                            <code>/quests view</code><br>
+                            <code>/quests claim daily</code>
+                        </div>
+                        <p><strong>Note:</strong> Daily quests reset every 24 hours, and weekly quests reset every 7 days.</p>
+                    </div>
+                </div>
+                
+                <div id="effects" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-flask"></i> Effects</h3>
+                        <div class="command-syntax">/effects</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View your active potion effects.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to view your active potion effects and when they expire.</p>
+                        <div class="command-example">
+                            <code>/effects</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rank-commands" class="guide-section">
+            <h2>Rank Commands</h2>
+            <div class="guide-content">
+                <p>Rank commands allow you to view your rank, all available ranks, and the top ranked users.</p>
+                
+                <div id="rank" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-medal"></i> Rank</h3>
+                        <div class="command-syntax">/rank [user]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View your rank or another user's rank.</p>
+                        <p><strong>Cooldown:</strong> 3 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to view detailed information about your rank or another user's rank, including tier, XP, and progress to the next rank.</p>
+                        <div class="command-example">
+                            <code>/rank</code> (view your own rank)<br>
+                            <code>/rank @username</code> (view another user's rank)
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="ranks" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-list-ol"></i> Ranks</h3>
+                        <div class="command-syntax">/ranks</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View all available ranks and their XP requirements.</p>
+                        <p><strong>Cooldown:</strong> 5 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to view all 16 rank tiers, their names, emojis, and XP requirements.</p>
+                        <div class="command-example">
+                            <code>/ranks</code>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="ranktop" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-crown"></i> Rank Top</h3>
+                        <div class="command-syntax">/ranktop [page]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View the top ranked users.</p>
+                        <p><strong>Cooldown:</strong> 10 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to view the top ranked users based on their total XP. You can specify a page number to view different pages of the leaderboard.</p>
+                        <div class="command-example">
+                            <code>/ranktop</code> (view first page)<br>
+                            <code>/ranktop 2</code> (view second page)
+                        </div>
+                        <p><strong>Note:</strong> You can use the buttons on the message to navigate between pages or to view your own rank position.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="clan-commands" class="guide-section">
+            <h2>Clan Commands</h2>
+            <div class="guide-content">
+                <p>Clan commands allow you to create, join, and manage clans with other users.</p>
+                
+                <div id="clan" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-users"></i> Clan</h3>
+                        <div class="command-syntax">/clan [subcommand]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Manage your clan.</p>
+                        <p><strong>Cooldown:</strong> 5 seconds</p>
+                        <p><strong>Subcommands:</strong></p>
+                        <ul>
+                            <li><code>create [name] [tag] [description]</code> - Create a new clan</li>
+                            <li><code>join [name]</code> - Join an existing clan</li>
+                            <li><code>leave</code> - Leave your current clan</li>
+                            <li><code>info [name]</code> - View information about a clan</li>
+                            <li><code>members</code> - View the members of your clan</li>
+                            <li><code>kick [user]</code> - Kick a member from your clan (leader only)</li>
+                            <li><code>leaderboard</code> - View the clan leaderboard</li>
+                        </ul>
+                        <div class="command-example">
+                            <code>/clan create "Dragon Tamers" DT "A clan for dragon enthusiasts"</code><br>
+                            <code>/clan join "Dragon Tamers"</code><br>
+                            <code>/clan info</code> (view your own clan)<br>
+                            <code>/clan info "Dragon Tamers"</code> (view another clan)<br>
+                            <code>/clan leaderboard</code>
+                        </div>
+                        <p><strong>Note:</strong> Clan names must be 3-20 characters, and tags must be 2-5 characters. Only clan leaders can kick members.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="leaderboard-commands" class="guide-section">
+            <h2>Leaderboard Commands</h2>
+            <div class="guide-content">
+                <p>Leaderboard commands allow you to view the top users in various categories.</p>
+                
+                <div id="leaderboard" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-trophy"></i> Leaderboard</h3>
+                        <div class="command-syntax">/leaderboard [type] [page]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View the leaderboard.</p>
+                        <p><strong>Cooldown:</strong> 10 seconds</p>
+                        <p><strong>Types:</strong> coins, xp, wins, level, rank</p>
+                        <p><strong>Usage:</strong> Use this command to view the top users in various categories. You can specify the type of leaderboard and a page number.</p>
+                        <div class="command-example">
+                            <code>/leaderboard coins</code> (view coins leaderboard, first page)<br>
+                            <code>/leaderboard xp 2</code> (view XP leaderboard, second page)
+                        </div>
+                        <p><strong>Note:</strong> You can use the buttons on the message to navigate between pages or to view your own rank position.</p>
+                    </div>
+                </div>
+                
+                <div id="liketop" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-thumbs-up"></i> Like Top</h3>
+                        <div class="command-syntax">/liketop [page]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> View the most liked trainers.</p>
+                        <p><strong>Cooldown:</strong> 10 seconds</p>
+                        <p><strong>Usage:</strong> Use this command to view the trainers with the most likes on their profiles. You can specify a page number.</p>
+                        <div class="command-example">
+                            <code>/liketop</code> (view first page)<br>
+                            <code>/liketop 2</code> (view second page)
+                        </div>
+                        <p><strong>Note:</strong> You can use the buttons on the message to navigate between pages or to view your own rank position.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="potion-commands" class="guide-section">
+            <h2>Potion Commands</h2>
+            <div class="guide-content">
+                <p>Potion commands allow you to use potions and view your active effects.</p>
+                
+                <div id="drink" class="command-card">
+                    <div class="command-header">
+                        <h3><i class="fas fa-flask"></i> Drink</h3>
+                        <div class="command-syntax">/drink [potion]</div>
+                    </div>
+                    <div class="command-details">
+                        <p><strong>Description:</strong> Drink a potion to gain temporary effects.</p>
+                        <p><strong>Cooldown:</strong> 5 seconds</p>
+                        <p><strong>Potions:</strong> XP_BOOST_SMALL, XP_BOOST_MEDIUM, XP_BOOST_LARGE, COIN_BOOST_SMALL, COIN_BOOST_MEDIUM, COIN_BOOST_LARGE, BATTLE_SHIELD, LUCKY_CHARM</p>
+                        <p><strong>Usage:</strong> Use this command to drink a potion and gain its temporary effects. You need to specify the potion to drink.</p>
+                        <div class="command-example">
+                            <code>/drink XP_BOOST_SMALL</code>
+                        </div>
+                        <p><strong>Note:</strong> You must have the potion in your inventory to use it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gameplay" class="guide-section">
+            <h2>Gameplay Guide</h2>
+            <div class="guide-content">
+                <h3>Getting Started</h3>
+                <p>When you first start using PixelMon, you'll want to focus on earning coins and XP to level up. Here's a recommended path for beginners:</p>
+                <ol>
+                    <li>Use <code>/daily</code> to claim your daily reward</li>
+                    <li>Use <code>/work</code> every hour to earn more coins</li>
+                    <li>Use <code>/hunt</code> to find items and animals</li>
+                    <li>Use <code>/mine</code> to gather resources</li>
+                    <li>Use <code>/addanimal</code> to add animals to your farm</li>
+                    <li>Use <code>/battle</code> to battle other users and earn more coins and XP</li>
+                </ol>
+                
+                <h3>Economy System</h3>
+                <p>The economy in PixelMon revolves around coins, which you can earn through various activities:</p>
+                <ul>
+                    <li>Daily rewards: 100-199 coins every 24 hours</li>
+                    <li>Work: 15-80 coins every hour</li>
+                    <li>Battles: 20-49 coins per win</li>
+                    <li>Gambling: Potential to multiply your coins (but risky)</li>
+                    <li>Quests: Various coin rewards for completing quests</li>
+                </ul>
+                
+                <h3>Leveling and Ranks</h3>
+                <p>As you earn XP, you'll level up and progress through the rank tiers:</p>
+                <ul>
+                    <li>XP is earned from most activities: daily rewards, work, battles, hunting, mining, etc.</li>
+                    <li>Each level requires more XP than the previous one</li>
+                    <li>There are 16 rank tiers, each with its own name and emoji</li>
+                    <li>Higher ranks provide bragging rights and visibility on leaderboards</li>
+                </ul>
+                
+                <h3>Animal System</h3>
+                <p>Animals are a core part of PixelMon gameplay:</p>
+                <ul>
+                    <li>Find animals through hunting and mining</li>
+                    <li>Add animals to your farm using <code>/addanimal</code></li>
+                    <li>Each animal has its own stats: health, strength, level, and a trait</li>
+                    <li>Animals can be sent on tasks to earn rewards</li>
+                    <li>Animals can battle against other users' animals</li>
+                    <li>Animals can be bred to create new offspring with inherited traits</li>
+                </ul>
+                
+                <h3>Farm System</h3>
+                <p>Your farm is where you keep your animals and build structures:</p>
+                <ul>
+                    <li>Upgrade your farm to increase animal capacity</li>
+                    <li>Build structures to provide benefits to your animals:
+                        <ul>
+                            <li>Animal House: Increases animal capacity</li>
+                            <li>Feeding Station: Increases healing effectiveness</li>
+                            <li>Training Ground: Increases XP gain for animals</li>
+                        </ul>
+                    </li>
+                    <li>Resources from mining are used to build and upgrade structures</li>
+                </ul>
+                
+                <h3>Battle System</h3>
+                <p>Battles are a key way to earn coins and XP:</p>
+                <ul>
+                    <li>User battles: Challenge other users directly</li>
+                    <li>Animal battles: Have your selected animal battle another user's animal</li>
+                    <li>Battle outcomes are determined by levels, stats, and some randomness</li>
+                    <li>Winners earn more coins and XP than losers</li>
+                </ul>
+                
+                <h3>Quest and Achievement System</h3>
+                <p>Quests and achievements provide additional goals and rewards:</p>
+                <ul>
+                    <li>Daily quests reset every 24 hours</li>
+                    <li>Weekly quests reset every 7 days</li>
+                    <li>Quests involve various activities like battling, collecting items, earning coins, etc.</li>
+                    <li>Achievements are one-time accomplishments that reward coins and XP</li>
+                </ul>
+                
+                <h3>Clan System</h3>
+                <p>Clans allow you to team up with other players:</p>
+                <ul>
+                    <li>Create or join a clan</li>
+                    <li>Clans have their own level and XP</li>
+                    <li>Clan leaders can manage members</li>
+                    <li>Clans compete on leaderboards</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="tips" class="guide-section">
+            <h2>Tips & Strategies</h2>
+            <div class="guide-content">
+                <h3>General Tips</h3>
+                <ul>
+                    <li><strong>Daily Consistency:</strong> Make sure to claim your daily reward every day and use the work command whenever it's available.</li>
+                    <li><strong>Resource Management:</strong> Save your resources for important upgrades rather than spending them on minor improvements.</li>
+                    <li><strong>Command Cooldowns:</strong> Keep track of command cooldowns and use them as soon as they're available to maximize your earnings.</li>
+                    <li><strong>Quest Priorities:</strong> Focus on completing quests that align with your natural gameplay to earn extra rewards.</li>
+                </ul>
+                
+                <h3>Economy Strategies</h3>
+                <ul>
+                    <li><strong>Balanced Approach:</strong> Use a mix of daily, work, battle, and hunting/mining to earn coins consistently.</li>
+                    <li><strong>Gambling:</strong> Only gamble what you can afford to lose, and consider using it as a last resort when you need coins quickly.</li>
+                    <li><strong>Potion Usage:</strong> Use coin boost potions during periods of high activity to maximize their effect.</li>
+                </ul>
+                
+                <h3>Animal Strategies</h3>
+                <ul>
+                    <li><strong>Trait Selection:</strong> Different traits are better for different activities:
+                        <ul>
+                            <li>"Smart" for faster leveling</li>
+                            <li>"Brave" or "Aggressive" for battles</li>
+                            <li>"Curious" for exploration</li>
+                        </ul>
+                    </li>
+                    <li><strong>Breeding:</strong> Breed animals with complementary traits and high stats to create stronger offspring.</li>
+                    <li><strong>Task Rotation:</strong> Send different animals on tasks based on their traits to maximize rewards.</li>
+                </ul>
+                
+                <h3>Battle Strategies</h3>
+                <ul>
+                    <li><strong>Level Advantage:</strong> Try to battle users who are close to your level for a fair fight and better rewards.</li>
+                    <li><strong>Animal Selection:</strong> Choose animals with high strength and battle power for animal battles.</li>
+                    <li><strong>Healing:</strong> Keep your animals healed to ensure they're ready for battles and tasks.</li>
+                </ul>
+                
+                <h3>Farm Strategies</h3>
+                <ul>
+                    <li><strong>Upgrade Priority:</strong> Upgrade your farm early to increase animal capacity.</li>
+                    <li><strong>Structure Focus:</strong> Focus on building and upgrading the Animal House first to maximize animal capacity.</li>
+                    <li><strong>Resource Gathering:</strong> Mine regularly to gather resources for farm upgrades.</li>
+                </ul>
+                
+                <h3>Advanced Strategies</h3>
+                <ul>
+                    <li><strong>Clan Collaboration:</strong> Join or create a clan to collaborate with other players and share strategies.</li>
+                    <li><strong>Potion Timing:</strong> Use XP boost potions during periods of high XP gain, such as when claiming quest rewards.</li>
+                    <li><strong>Profile Customization:</strong> Customize your profile to attract likes and climb the like leaderboard.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="join" class="join-discord">
+            <div class="join-content">
+                <h2>Ready to Start Your <span class="accent">PixelMon</span> Journey?</h2>
+                <p>Add PixelMon to your Discord server today and join thousands of trainers in this exciting adventure!</p>
+                <div class="join-buttons">
+                    <a href="https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot&permissions=8" class="btn btn-primary btn-large">
+                        <i class="fab fa-discord"></i> Add to Discord
+                    </a>
+                    <a href="https://discord.gg/YOUR_INVITE_CODE" class="btn btn-secondary btn-large">
+                        <i class="fas fa-users"></i> Join Support Server
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/placeholder.svg?height=50&width=50" alt="PixelMon Logo">
+                    <h2>PixelMon</h2>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Navigation</h3>
+                        <a href="index.html">Home</a>
+                        <a href="#getting-started">Getting Started</a>
+                        <a href="#commands">Commands</a>
+                        <a href="#gameplay">Gameplay</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <a href="#">Documentation</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Connect</h3>
+                        <a href="#"><i class="fab fa-discord"></i> Discord</a>
+                        <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PixelMon Bot. All Rights Reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', function() {
+                    navLinks.classList.toggle('show');
+                });
+            }
+            
+            // Command category tabs
+            const categoryTabs = document.querySelectorAll('.category-tab');
+            const commandLists = document.querySelectorAll('.command-list');
+            
+            categoryTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Remove active class from all tabs and lists
+                    categoryTabs.forEach(t => t.classList.remove('active'));
+                    commandLists.forEach(list => list.classList.remove('active'));
+                    
+                    // Add active class to clicked tab
+                    tab.classList.add('active');
+                    
+                    // Show corresponding command list
+                    const category = tab.getAttribute('data-category');
+                    document.getElementById(`${category}-commands`).classList.add('active');
+                });
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    if (this.getAttribute('href') !== '#') {
+                        e.preventDefault();
+                        
+                        const targetId = this.getAttribute('href');
+                        const targetElement = document.querySelector(targetId);
+                        
+                        if (targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 80,
+                                behavior: 'smooth'
+                            });
+                        }
+                        
+                        // Close mobile menu if open
+                        if (navLinks.classList.contains('show')) {
+                            navLinks.classList.remove('show');
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
