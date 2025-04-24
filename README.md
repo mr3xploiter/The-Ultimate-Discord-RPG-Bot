@@ -7,8 +7,8 @@
 **Pixelmon** is a fully-featured Discord RPG bot that brings an immersive experience right to your server. With features like animal battles, farming, economy, quests, and more, Pixelmon is designed to keep your members engaged and entertained for hours. Collect, breed, and battle with animals, trade with friends, climb the leaderboards, and explore new areas as you grow your virtual farm and complete exciting tasks.
 ## 🌟 Preview
 <p align="center">
-  <a href="[https://example.com](https://discord.gg/ardvvgM4xF)">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTay0706Hz2wegZfmbL3YBO4EDv_gobolWdbw&s" alt="Image description">
+  <a href="https://discord.gg/ardvvgM4xF">
+  <img src="https://clear-sparrow-896.convex.cloud/api/storage/61ff55f0-6069-472b-98aa-18be09ebd50a" alt="Image description">
 </a>
 
 </p>
